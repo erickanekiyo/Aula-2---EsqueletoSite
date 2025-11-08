@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*BodyDefault*/
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #0f111a, #181b25);
+  color: #e4e6eb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Menu*/
+.menu {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu a {
+  color: #d2d2d2;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #6ab7ff;
+}
+
+.menu a.press {
+  color: #6ab7ff;
+  font-weight: 600;
+}
+
+/*Body*/
+main {
+  flex: 1;
+  padding: 50px 10%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #6ab7ff;
+  margin-bottom: 20px;
+}
+
+.initText {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #c9c9c9;
+}
+
+/*Links*/
+a:hover {
+  text-decoration: underline;
+}
+
+/*Rodape*/
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
